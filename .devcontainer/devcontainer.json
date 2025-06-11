@@ -1,5 +1,5 @@
 {
-  "name": "name-a",
+  "name": "phpstorm-test",
   "dockerComposeFile": "docker-compose.yml",
   "service": "appsvc"
 }
