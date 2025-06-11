@@ -1,12 +1,4 @@
 {
-  "name": "PHP",
   "dockerComposeFile": "docker-compose.yml",
-  "workspaceFolder": "/IdeaProjects/phpstorm-test",
-  "service": "devcontainer",
-  "customizations" : {
-    "jetbrains" : {
-      "backend" : "PhpStorm"
-    }
-  },
-  "forwardPorts": [8080]
+  "service": "devcontainer"
 }
