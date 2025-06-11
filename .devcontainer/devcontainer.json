@@ -1,6 +1,7 @@
 {
   "name": "PHP",
   "dockerComposeFile": "docker-compose.yml",
+  "workspaceFolder": "/IdeaProjects/phpstorm-test",
   "service": "devcontainer",
   "customizations" : {
     "jetbrains" : {
