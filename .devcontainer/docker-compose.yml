@@ -1,0 +1,4 @@
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/python:3.12-bookworm
+    command: sleep infinity
