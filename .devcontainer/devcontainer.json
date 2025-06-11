@@ -1,5 +1,5 @@
 {
   "name": "phpstorm-test",
   "dockerComposeFile": "docker-compose.yml",
-  "service": "appsvc"
+  "service": "devcontainer"
 }
