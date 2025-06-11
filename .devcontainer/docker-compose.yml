@@ -1,3 +1,5 @@
+name: name-b
+
 services:
   devcontainer:
     image: mcr.microsoft.com/devcontainers/php:8-bookworm
