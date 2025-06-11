@@ -1,3 +1,15 @@
 services:
   devcontainer:
     image: mcr.microsoft.com/devcontainers/php:8-bookworm
+
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: pass
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
